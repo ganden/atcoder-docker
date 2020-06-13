@@ -1,0 +1,8 @@
+version: "3"
+services:
+  python3:
+    build: ./python3
+    image: atcoder:python3.8.2
+    volumes:
+        - ../:/opt/atcoder
+    tty: true
